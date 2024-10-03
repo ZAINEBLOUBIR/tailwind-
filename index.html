@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <nav class="flex justify-between items-center bg-slate-200 w-full h-32">
+                <img src="LOGO.png" alt="logo" class="w-28 h-28 mix-blend-multiply">
+
+                <div class="flex flex-1 justify-center items-center p-4 m-7">
+                    <button type="button" class="mx-4 p-3 bg-black rounded text-white">home</button>
+                    <button type="button" class="mx-4 p-3 bg-black rounded text-white">about</button>
+                    <button type="button" class="mx-4 p-3 bg-black rounded text-white">contact</button>
+                    <button type="button" class="mx-4 p-3 bg-black rounded text-white">profil</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="flex">
+        <aside class="flex flex-col h-44 w-24 ">
+
+            <div class="flex flex-col">
+                <button class="bg-black text-white px-4 py-3 rounded my-5">kitchen modern</button>
+                <button class="bg-black text-white px-4 py-3 rounded my-5">kitchen traditional</button>
+                <button class="bg-black text-white px-4 py-3 rounded my-5">kitchen classic</button>
+
+            </div>
+        </aside>
+        <main class="flex flex-col w-fit p-4">
+
+            <section class="container mx-auto py-8">
+                <h2 class="text-3xl font-semibold text-center mb-6">Featured Posts</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-4 rounded shadow">
+                        <img src="kitchen classic.jpg" alt="Post Image" class="w-full h-48 object-cover rounded">
+                        <h3 class="text-xl font-bold mt-2">kitchen classic</h3>
+                        <p class="text-gray-600">Classic kitchens are designed to be timeless, simple and fresh, rather
+                            than
+                            dark, complicated, and traditional. Sticking to a light colour scheme with occasional dark
+                            accents will make your life much easier when it comes to creating a modern classic kitchen
+                            design.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <img src="kitchen modern.jpg" alt="Post Image" class="w-full h-48 object-cover rounded">
+                        <h3 class="text-xl font-bold mt-2">kitchen modern</h3>
+                        <p class="text-gray-600">Modern kitchen designs have open floor plans stretching the entire
+                            length
+                            of the kitchen layout. They sometimes have distinct zone divisions which are subtly defined
+                            by
+                            changes in colour or materials. This minimalistic approach to layout is what achieves a
+                            simple
+                            and elegant look.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded shadow">
+                        <img src="kitchen traditional.jpeg" alt="Post Image" class="w-full h-48 object-cover rounded">
+                        <h3 class="text-xl font-bold mt-2">kitchen traditional</h3>
+                        <p class="text-gray-600">Traditional kitchens are characterised by the use of natural materials,
+                            soft muted colours and decorative details such as raised panel cabinets and crown molding.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container mx-auto py-8">
+                <h2 class="text-3xl font-semibold text-center mb-6">Recent Posts</h2>
+                <ul class="space-y-4">
+                    <li class="bg-white p-4 rounded shadow">
+                        <h3 class="text-xl font-bold"></h3>
+                        <p class="text-gray-500"></p>
+                    </li>
+                    <li class="bg-white p-4 rounded shadow">
+                        <h3 class="text-xl font-bold"></h3>
+                        <p class="text-gray-500"></p>
+                    </li>
+                    <li class="bg-white p-4 rounded shadow">
+                        <h3 class="text-xl font-bold"></h3>
+                        <p class="text-gray-500"></p>
+                    </li>
+                </ul>
+            </section>
+
+            <div>subscribe</div>
+        </main>
+    </div>
+     <footer>footer</footer>
+</body>
+
+</html>
